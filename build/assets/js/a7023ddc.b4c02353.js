@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmorganconnors_com=self.webpackChunkmorganconnors_com||[]).push([[267],{8289:r=>{r.exports=JSON.parse('[{"label":"first","permalink":"/blog/tags/first","count":1},{"label":"bugs grr","permalink":"/blog/tags/bugs-grr","count":1}]')}}]);
