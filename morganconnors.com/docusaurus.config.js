@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'morganconnors', // Usually your GitHub org/user name.
+  // organizationName: 'morganconnors', // Usually your GitHub org/user name.
   // projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -45,14 +45,14 @@ const config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
             // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+             // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+         },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'morganconnors.com',
+        title: 'Home',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
