@@ -69,7 +69,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {to: '/docs/intro/', label: 'Docs', position: 'left'},
