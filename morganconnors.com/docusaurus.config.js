@@ -72,12 +72,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          /*{
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },*/
+          {to: '/docs/intro/', label: 'Docs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/morganconnors',
@@ -88,7 +83,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
+        /* links: [
           {
             title: 'Docs',
             items: [
@@ -98,7 +93,7 @@ const config = {
               },
             ],
           },
-          /*{
+          {
             title: 'Community',
             items: [
               {
@@ -114,7 +109,7 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },*/
+          },
           {
             title: 'More',
             items: [
@@ -128,7 +123,7 @@ const config = {
               },
             ],
           },
-        ],
+        ],*/
         copyright: `Copyright © ${new Date().getFullYear()} Morgan Connors, Built with Docusaurus.`,
       },
       prism: {

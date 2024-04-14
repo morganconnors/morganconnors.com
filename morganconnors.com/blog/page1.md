@@ -12,4 +12,4 @@ Hello, this is my first post. Currently, there is a bug and I am trying to fix i
 
 
 Update: huge update, the bug is fixed
-forcing build upate
+forcing build update
