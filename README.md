@@ -16,6 +16,13 @@ npm run start # this starts the dev server
 npm run build
 ```
 
+## testing build
+
+```
+npm run serve
+```
+
+
 ## useful files to remember
 
 ```.docusaurus/docusaurus.config.mjs``` - has bunch of footer and navbar stuff
