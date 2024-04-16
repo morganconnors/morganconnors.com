@@ -22,6 +22,12 @@ npm run build
 npm run serve
 ```
 
+## if you accidentally delete files
+
+```
+npm install docuaurus
+```
+
 
 ## useful files to remember
 
