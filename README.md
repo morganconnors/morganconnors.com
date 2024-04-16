@@ -1,3 +1,5 @@
+===Yeah, I goofed something :/ Note to self: rm -rf * and make a new one? I dunno.===
+
 # How to use Docusuarus
 
 because i forget after reinstalling this 1000 times
