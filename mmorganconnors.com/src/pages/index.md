@@ -1,5 +1,5 @@
 ---
-title: Home | morganconnors.com
+title: Home
 ---
 
 # Morgan Connors

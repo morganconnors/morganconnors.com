@@ -14,11 +14,9 @@
         <updated>2024-04-14T01:24:53.000Z</updated>
         <summary type="html"><![CDATA[This is my first post and I am trying to fix a bug.]]></summary>
         <content type="html"><![CDATA[<p>Hello, this is my first post. Currently, there is a bug and I am trying to fix it.</p>
-<p>Update: huge update, the bug is fixed
-forcing build update</p>]]></content>
+<p>Update: huge update, the bug is fixed</p>]]></content>
         <author>
             <name>Morgan Connors</name>
-            <uri>https://www.morganconnors.com</uri>
         </author>
         <category label="first" term="first"/>
         <category label="bugs grr" term="bugs grr"/>

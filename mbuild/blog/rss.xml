@@ -15,8 +15,7 @@
             <pubDate>Sun, 14 Apr 2024 01:24:53 GMT</pubDate>
             <description><![CDATA[This is my first post and I am trying to fix a bug.]]></description>
             <content:encoded><![CDATA[<p>Hello, this is my first post. Currently, there is a bug and I am trying to fix it.</p>
-<p>Update: huge update, the bug is fixed
-forcing build update</p>]]></content:encoded>
+<p>Update: huge update, the bug is fixed</p>]]></content:encoded>
             <category>first</category>
             <category>bugs grr</category>
         </item>

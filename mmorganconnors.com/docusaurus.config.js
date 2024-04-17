@@ -72,6 +72,7 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+		{to: '/contact', label: 'Contact', position: 'left'},
           {to: '/docs/intro/', label: 'Docs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {

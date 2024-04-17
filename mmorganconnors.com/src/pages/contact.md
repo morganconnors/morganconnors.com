@@ -1,5 +1,5 @@
 ---
-title: Contact | morganconnors.com
+title: Contact
 ---
 
 # Contact Information
