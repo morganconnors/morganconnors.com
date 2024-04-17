@@ -16,3 +16,4 @@
 | James Nicholls | github.com/jnicholls2026 | |
 | Mike Ng | github.com/itsmmmike | |
 | Aidan Smith | github.com/aidan01smith | |
+| Adam Hachem | github.com/adam-hachem | |
