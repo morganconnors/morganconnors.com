@@ -1,4 +1,0 @@
-# Hardware Hacking Resources
-
-## Videos
-
