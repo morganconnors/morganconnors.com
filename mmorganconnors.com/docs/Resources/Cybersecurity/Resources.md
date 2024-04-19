@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Cybersecurity Resources
+# Cybersecurity Resources  
 
-## Malware
+## Malware  
 ### Malware Samples  
 [Malshare](https://malshare.com/)  
 [MalwareBazaar](https://baazar.abuse.ch/)  
@@ -12,7 +12,7 @@ sidebar_position: 1
 [VirusTotal](https://virustotal.com/) - paid only  
 
 ### Sandboxes  
-#### Online
+#### Online  
 [Any Run](https://any.run)  
 
 #### Local
@@ -21,8 +21,4 @@ sidebar_position: 1
 ## VPNs
 ### Wireguard
 [Wireguard](https://github.com/WireGuard)  
-<<<<<<< HEAD
 [Wireguard List](https://github.com/stars/morganconnors/lists/wireguard)  
-=======
-[Wireguard List](https://github.com/stars/morganconnors/lists/wireguard)
->>>>>>> 4d45591173b1a9772d16f73c532dff752f4d0274
