@@ -6,6 +6,15 @@
 	</ul>
 </nav>
 
+
+<slot />
+
+
+<footer>
+	<p>Built with SvelteKit.<p>
+</footer>
+
+
 <style>
 
 	nav {
@@ -32,7 +41,14 @@
 		color: purple;
 	}
 
+	footer {
+		margin: auto;
+		width: 75%;
+		text-align: center;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+	}
+
 </style>
-
-
-<slot />

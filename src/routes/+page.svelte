@@ -12,9 +12,11 @@
 
 
 <style>
+
 	.centeredDiv {
 		margin: auto;
 		width: 75%;
 		padding: 50px;
 	}
+
 </style>
