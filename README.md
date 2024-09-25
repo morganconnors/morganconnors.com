@@ -1,34 +1,3 @@
-# How to use Docusuarus
+General repository for my personal website versions.
 
-because i forget after reinstalling this 1000 times
-
-## dev server
-
-```
-zypper install nodejs-common
-npm install docusuarus
-npm run start # this starts the dev server
-```
-
-## building
-
-```
-npm run build
-```
-
-## testing build
-
-```
-npm run serve
-```
-
-## if you accidentally delete files
-
-```
-npm install docuaurus
-```
-
-
-## useful files to remember
-
-```.docusaurus/docusaurus.config.mjs``` - has bunch of footer and navbar stuff
+Check branches for different stacks or static generator tools I have used.
