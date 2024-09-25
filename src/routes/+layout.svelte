@@ -11,16 +11,20 @@
 	nav {
 		margin: auto;
 		padding: 10px;
-		width: 40%;
+		width: 75%;
 	}
 
 	ul {
 		display: flex;
 		list-style: none;
+		margin: 0;
+		padding: 0;
 	}
 
-	li {
-		margin-right: 20px;
+	ul li {
+		margin: 0;
+		padding: 0;
+		margin-right: 10px;
 	}
 
 	a {
