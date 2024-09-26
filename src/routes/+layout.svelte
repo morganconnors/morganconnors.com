@@ -19,7 +19,7 @@
 
 	nav {
 		margin: auto;
-		padding: 10px;
+		padding: 25px;
 		width: 75%;
 	}
 
