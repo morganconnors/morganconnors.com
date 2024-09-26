@@ -3,8 +3,6 @@
 
 </script>
 
-	<a href=""></a><br>
-
 <div class="centeredDiv">
 
 	<h1>Resources</h1>
