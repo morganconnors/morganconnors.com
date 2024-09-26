@@ -10,7 +10,7 @@
 	<p>This is a work in progress, I don't actually have any content to put here yet.</p>
 
 	<div id="blogPosts">
-		<ul class="posts">
+		<ul class="posts">ow
 			{#each data.posts as post}
 				<li class="post">
 					<a href={post.slug} class="title">{post.title}
@@ -32,16 +32,9 @@
 	}
 
 	#blogPosts {
-		border-style: solid;
-		border: 3px 0;
-		border-color: black;
 	}
 
 	.posts {
-		border-style: solid;
-		border: 3px 0;
-		border-color: red;
-
 		display: flex;
 		list-style: none;
 		margin: 0;
@@ -49,10 +42,6 @@
 	}
 
 	.post {
-		border-style: solid;
-		border: 3px 0;
-		border-color: yellow;
-
 		margin: 0;
 		padding: 0;
 		margin-right: 10px;
