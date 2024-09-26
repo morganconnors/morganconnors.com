@@ -6,20 +6,27 @@
 	</ul>
 </nav>
 
+<div id="page-container">
+	<div id="content-wrap">
 
-<slot />
+		<slot />
+	
+	</div>
 
-
-<footer>
-	<p>Built with SvelteKit.<p>
-</footer>
+	<footer>
+		<a href="https://www.linkedin.com/in/morgan-connors">LinkedIn</a>
+		<a href="https://www.github.com/morganconnors">Github</a>
+		<a href="mailto:contact@morganconnors.com">Email</a>
+		<p>Built with SvelteKit.<p>
+	</footer>
+</div>
 
 
 <style>
 
 	nav {
 		margin: auto;
-		padding: 25px;
+		padding: 2.5vh;
 		width: 75%;
 	}
 
@@ -41,14 +48,26 @@
 		color: purple;
 	}
 
+	#page-container {
+		position: relative;
+		min-height: 100vh;
+	}
+
+	#content-wrap {
+		padding-bottom: 2.5rem;
+	}
+
 	footer {
 		margin: auto;
-		width: 75%;
+		width: 100%;
 		text-align: center;
-		position: fixed;
-		bottom: 0px;
-		left: 0px;
-		right: 0px;
+		position: absolute;
+		bottom: 0;
+		height: 2.5rem;
+	}
+
+	footer a {
+		padding-right: 10px;
 	}
 
 </style>

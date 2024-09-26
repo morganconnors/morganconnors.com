@@ -3,9 +3,9 @@
 https://learn.svelte.dev/tutorial/welcome-to-svelte
 https://www.w3schools.com/css/css_list.asp
 
-Return later, I'm going to bed.
 **https://www.youtube.com/watch?v=RhScu3uqGd0**
 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
 
 # create-svelte
 

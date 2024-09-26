@@ -33,5 +33,8 @@
 		width: 75%;
 	}
 
+	.surface-4 {
+		padding-right: 5px;
+	}
 
 </style>
