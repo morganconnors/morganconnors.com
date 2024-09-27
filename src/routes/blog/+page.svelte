@@ -1,8 +1,12 @@
 <script lang="ts">
 	import * as config from '$lib/config'
-
+	import { title } from '$lib/config.ts'
 	export let data
 </script>
+
+<svelte:head>
+	<title>Blog {title}</title>
+</svelte:head>
 
 <div class="centeredDiv">
 

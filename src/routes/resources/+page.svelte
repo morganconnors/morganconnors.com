@@ -1,7 +1,10 @@
 <script>
-
-
+	import { title } from '$lib/config.ts'
 </script>
+
+<svelte:head>
+	<title>Resources {title}</title>
+</svelte:head>
 
 <div class="centeredDiv">
 

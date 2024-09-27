@@ -1,7 +1,10 @@
 <script>
-
-
+	import { title } from '$lib/config.ts';
 </script>
+
+<svelte:head>
+	<title>Home {title}</title>
+</svelte:head>
 
 
 <div class="centeredDiv">
