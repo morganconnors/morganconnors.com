@@ -41,9 +41,4 @@
 
 <style>
 
-	.centeredDiv {
-		margin: auto;
-		width: 75%;
-	}
-
 </style>

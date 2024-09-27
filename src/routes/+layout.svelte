@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Header from './header.svelte'
 	import Footer from './footer.svelte'
+	import '../app.css'
 </script>
 
 <Header />

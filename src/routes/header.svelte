@@ -28,9 +28,4 @@
 		margin-right: 10px;
 	}
 
-	a {
-		text-decoration: none;
-		color: purple;
-	}
-
 </style>

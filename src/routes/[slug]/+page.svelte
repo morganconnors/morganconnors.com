@@ -16,7 +16,7 @@
 
 	<div class="tags">
 		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
+			<span class="categories">&num;{category}</span>
 		{/each}
 	</div>
 
@@ -28,12 +28,7 @@
 
 <style>
 
-	.centeredDiv {
-		margin: auto;
-		width: 75%;
-	}
-
-	.surface-4 {
+	.categories {
 		padding-right: 5px;
 	}
 
