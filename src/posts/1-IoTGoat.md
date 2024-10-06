@@ -67,3 +67,29 @@ created 0 sockets
 created 0 hardlinkso unsquashfs SquashFS.bin
 ```
 
+## Step 3: Figuring out what we have
+
+Now we have a bunch of data, so what? Well, for challenge #1 we should look for passwords we can use. The first place I'm going to look is ```etc/passwd``` to see which users get access to a shell and ```etc/shadow``` to see the hashes of the users.
+
+etc/passwd
+```text
+root:x:0:0:root:/root:/bin/ash
+daemon:*:1:1:daemon:/var:/bin/false
+ftp:*:55:55:ftp:/home/ftp:/bin/false
+network:*:101:101:network:/var:/bin/false
+nobody:*:65534:65534:nobody:/var:/bin/false
+dnsmasq:x:453:453:dnsmasq:/var/run/dnsmasq:/bin/false
+iotgoatuser:x:1000:1000::/root:/bin/ash
+```
+
+etc/shadow
+```text
+root:$1$Jl7H1VOG$Wgw2F/C.nLNTC.4pwDa4H1:18145:0:99999:7:::
+daemon:*:0:0:99999:7:::
+ftp:*:0:0:99999:7:::
+network:*:0:0:99999:7:::
+nobody:*:0:0:99999:7:::
+dnsmasq:x:0:0:99999:7:::
+dnsmasq:x:0:0:99999:7:::
+iotgoatuser:$1$79bz0K8z$Ii6Q/if83F1QodGmkb4Ah.:18145:0:99999:7:::
+```
