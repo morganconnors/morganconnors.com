@@ -11,14 +11,14 @@ published: false
 
 # About IoTGoat
 
-Taken directly from IoTGoat's [github](https://github.com/OWASP/IoTGoat), "IoTGoat is a deliberately insecure firmware created to educate software developers and security professionals with testing commonly found vulnerabilities in IoT devices."
+Taken directly from OWASP's IoTGoat [github repository](https://github.com/OWASP/IoTGoat), "IoTGoat is a deliberately insecure firmware created to educate software developers and security professionals with testing commonly found vulnerabilities in IoT devices."
 
 For the purpose of the walkthrough, I assume you are on some linux machine but it's probably possible to follow along on Windows & MacOS.
 
 # Walkthrough & Steps
 ## Step 0: Download the Image
 
-I have downloaded the IoTGoat-raspberry-pi2.img file from the [v1.0 release](https://github.com/OWASP/IoTGoat/releases/tag/v1.0) found on their github. We will use this firmware image as the basis of the walkthrough for now.
+I have downloaded the IoTGoat-raspberry-pi2.img file from the [v1.0 release](https://github.com/OWASP/IoTGoat/releases/tag/v1.0) found on their github. We will use this firmware image as the basis of the walkthrough moving forward.
 
 ## Step 1: Understanding the Image
 
@@ -27,7 +27,7 @@ We'll start by using binwalk to see what the file contains:
 ```bash
 binwalk IoTGoat-raspberry-pi2.img
 ```
-The output will be fairly so I will trim large sections to only contain the important information, you can find the full output [here.](https://github.com/morganconnors/IoTGoat-Walkthrough/blob/main/Walkthrough-Files/Step-1-binwalk)
+The output will be fairly long so I will trim large sections to only contain the important information, you can find the full output [here.](https://github.com/morganconnors/IoTGoat-Walkthrough/blob/main/Walkthrough-Files/Step-1-binwalk)
 ```text
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
