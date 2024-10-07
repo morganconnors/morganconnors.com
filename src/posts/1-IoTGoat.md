@@ -93,3 +93,26 @@ dnsmasq:x:0:0:99999:7:::
 dnsmasq:x:0:0:99999:7:::
 iotgoatuser:$1$79bz0K8z$Ii6Q/if83F1QodGmkb4Ah.:18145:0:99999:7:::
 ```
+
+Looking at these files, ```root``` and ```iotgoatuser``` both get a shell and use MD5 (we can tell MD5 based on the ```$1$``` after the first colon - more info [here](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)).
+
+It's possible to crack the hashes of these users, so let's set up hashcat.
+
+For the user ```root```, we will execute:
+
+```
+hashcat -a 0 -m 500 root-hash.txt root-list.txt
+```
+Password
+```
+iotgoathardcodedpassword
+```
+
+For the user ```iotgoatuser```, we will execute:
+```
+hashcat -a 0 -m 500 iotgoatuser-hash.txt iotgoatuser-list.txt
+```
+Password
+```
+7ujMko0vizxv
+```
